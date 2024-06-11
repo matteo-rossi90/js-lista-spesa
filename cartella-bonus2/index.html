@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- link css -->
+     <link rel="stylesheet" href="css/style.css">
+    <title>Lista-bonus2</title>
+</head>
+<body>
+    
+    <div id="container">
+
+        <div id="box-container">
+            
+            <h1>La mia lista</h1>
+            
+            <!-- form per immettere gli elementi della spesa -->
+            <form action="#">
+                <input type="text" id="input-item" placeholder="Scrivi ciò che vuoi acquistare">
+                <button class="btn btn-add">Aggiungi alla lista</button>
+            </form>
+
+            <!-- pulsante che permette di visualizzare la lista -->
+            <div id="btn-container">
+                <button class="btn btn-input">
+                    Premi qui per mostrare la lista
+                </button>
+                <button class="btn btn-close">
+                    Cancella
+                </button>
+
+            </div>
+
+            <!-- lista che contine i vari elementi inseriti con js -->
+            <ul id="list"></ul>
+        </div>
+    </div>
+
+
+    
+    <!-- js -->
+     <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
